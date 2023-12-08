@@ -1,0 +1,10 @@
+*** Test Cases ***
+Library    SeleniumLibary
+    
+
+MyFirstTest
+    Log    helloword
+    Open Browser    https://app.jubelio.com/login    chrome
+    
+    
+    

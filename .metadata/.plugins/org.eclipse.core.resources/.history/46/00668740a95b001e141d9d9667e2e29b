@@ -1,0 +1,21 @@
+***Settings**
+Library    SeleniumLibrary
+
+*** Test Cases ***
+MyFirstTest
+    Log    helloword...
+    
+FirstSeleniumTest
+    Open Browser  https://app.jubelio.com/login    chrome
+    Set Selenium Implicit Wait    5
+    Sleep    2    
+    Input Text    //*[@id="root"]/div/div/div[1]/div/div[2]/div/form/div[1]/div/input    qa.rakamin.jubelio@gmail.com
+    Input Password    //*[@id="root"]/div/div/div[1]/div/div[2]/div/form/div[2]/div/input    Jubelio123!
+    Click Button    //*[@id="root"]/div/div/div[1]/div/div[2]/div/form/button
+    Sleep    10    
+    Close Browser
+    log    Test Complete
+    
+      
+    
+    
